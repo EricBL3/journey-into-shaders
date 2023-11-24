@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3 uid="uid://dyiq0l80vpjky"]
+
+[ext_resource type="Shader" uid="uid://ltfqb31c7f3p" path="res://first_visual_shader.tres" id="1_h38wj"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_j2kyg"]
+render_priority = 0
+shader = ExtResource("1_h38wj")
+
+[sub_resource type="SphereMesh" id="SphereMesh_dx6l1"]
+material = SubResource("ShaderMaterial_j2kyg")
+
+[node name="MeshInstance3D" type="MeshInstance3D"]
+mesh = SubResource("SphereMesh_dx6l1")

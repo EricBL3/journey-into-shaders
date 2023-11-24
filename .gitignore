@@ -539,7 +539,7 @@ node_modules/
 *Saved/*
 
 # Compiled source files for the engine to use
-*Intermediate/*
+*/Intermediate/*
 *Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
@@ -560,3 +560,8 @@ node_modules/
 *.mono/
 *data_*/
 *mono_crash.*.json
+
+*/Content/StarterContent
+/Projects/UnrealShaders/Intermediate
+/Projects/UnrealShaders/Saved
+/Projects/UnrealShaders/Content/StarterContent
