@@ -1,0 +1,7 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://cd30pmyye3gsw"]
+
+[ext_resource type="Shader" uid="uid://184qx4gpkgha" path="res://shader-graph-basics/Shaders/basic_shader_math.tres" id="1_7h26x"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_7h26x")
